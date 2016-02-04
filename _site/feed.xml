@@ -2,13 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CNX Coder &#39;s Blog</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>CNX Coder&#39;s programming blog.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Feb 2016 05:41:35 +0700</pubDate>
-    <lastBuildDate>Thu, 04 Feb 2016 05:41:35 +0700</lastBuildDate>
+    <link>http://cnxcoder.github.io/</link>
+    <atom:link href="http://cnxcoder.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 04 Feb 2016 07:28:05 +0700</pubDate>
+    <lastBuildDate>Thu, 04 Feb 2016 07:28:05 +0700</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
+    
+      <item>
+        <title>Test jekyll</title>
+        <description>&lt;p&gt;Test C++&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-cpp&quot; data-lang=&quot;cpp&quot;&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;auto&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Test&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CreateInstance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;ทดสอบภาษาไทย&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Feb 2016 05:32:32 +0700</pubDate>
+        <link>http://cnxcoder.github.io/jekyll/update/beginer/2016/02/04/test-markdown.html</link>
+        <guid isPermaLink="true">http://cnxcoder.github.io/jekyll/update/beginer/2016/02/04/test-markdown.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+        <category>beginer</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -28,8 +51,8 @@
 
 </description>
         <pubDate>Wed, 03 Feb 2016 20:32:32 +0700</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2016/02/03/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/02/03/welcome-to-jekyll.html</guid>
+        <link>http://cnxcoder.github.io/jekyll/update/2016/02/03/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://cnxcoder.github.io/jekyll/update/2016/02/03/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>

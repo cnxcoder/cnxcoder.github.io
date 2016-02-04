@@ -1,16 +1,17 @@
 ---
 layout: post
-title:  "Test Markdonw"
-date:   2016-02-04 07:00:00 +0700
-categories: markdown beginer
+title:  "Test jekyll"
+date:   2016-02-04 05:32:32 +0700
+categories: jekyll update beginer
 ---
-## Test Markdown 
+
+
 
 Test C++
-```c++
+{% highlight cpp %}
 void test() {
 	auto test = Test::CreateInstance();
 }
-```
+{% endhighlight %}
 
 ทดสอบภาษาไทย
