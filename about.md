@@ -4,12 +4,26 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+ชื่อ **CNX Coder**
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+เริ่มอาชีพ **Coder** มาตั้งแต่ปี 1995
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+***
+
+####Programming Skill:
+* Basic 
+* Fox Pro
+* Pascal
+* Assembly
+* SQL
+* C
+* C++
+* Java
+* Perl
+* C#
+* Java Script
+* PHP
+* Python
+* Swift
+* Objective C
+

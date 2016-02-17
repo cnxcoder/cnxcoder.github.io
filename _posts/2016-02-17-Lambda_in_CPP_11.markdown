@@ -7,7 +7,7 @@ categories: cpp11 beginer
 
 # Lambda in C++ 11
 
-แลมดา คือการเขียน anonymous function แบบ inline. ทำให้สะดวกในการโค๊ดยิ่งขึ้น
+แลมดา คือการเขียน anonymous function แบบ inline ทำให้สะดวกในการโค๊ดยิ่งขึ้น
 
 #### Syntax
 
@@ -15,16 +15,16 @@ categories: cpp11 beginer
 	[](){}
 	[capture](parameters)  return_type -> { function_body }
 ```
-[]  คือ lambda capture block.
+**[]** lambda capture block.
 
-[] ใช้ระบุว่าให้แลมดามีการเก็บค่าใดในบล๊อกสโคปทีมันอยู่เอาเข้าไปด้วย ถ้าไม่ระบุก็คือไม่มีการเก็บค่าใดๆ
+**[]** ใช้ระบุว่าให้แลมดามีการเก็บค่าใดในบล๊อกสโคปทีมันอยู่เอาเข้าไปด้วย ถ้าไม่ระบุก็คือไม่มีการเก็บค่าใดๆ
 
 ```cpp
 	auto hello = []() {std::cout<<"Hello Lambda"<<std::endl;};
 	hello();
 ```
 
-[x] หากมีการระบุชื่อตัวแปรโดยจะเป็นเก็บค่าแบบ by value
+**[x]** หากมีการระบุชื่อตัวแปรโดยจะเป็นเก็บค่าแบบ by value
 
 ```cpp
 	string name = "Hello Lambda";
@@ -32,7 +32,7 @@ categories: cpp11 beginer
 	info();
 ```
 
-[&x] หากมีการระบุ & หน้าชื่อตัวแปรโดยจะเป็นเก็บค่าแบบ by reference
+**[&x]** หากมีการระบุ & หน้าชื่อตัวแปรโดยจะเป็นเก็บค่าแบบ by reference
 
 ```cpp
 	string name = "Hello Lambda";
@@ -40,7 +40,7 @@ categories: cpp11 beginer
 	info();
 ```
 
-[=] เป็นการระบุให้เก็บค่าทั้งหมดในบล๊อกสโคป แบบ by value
+**[=]** เป็นการระบุให้เก็บค่าทั้งหมดในบล๊อกสโคป แบบ by value
 
 ```cpp
 	int main()
@@ -64,7 +64,7 @@ categories: cpp11 beginer
 	}
 ```
 
-[&] เป็นการระบุให้เก็บค่าทั้งหมดในบล๊อกสโคป แบบ by reference
+**[&]** เป็นการระบุให้เก็บค่าทั้งหมดในบล๊อกสโคป แบบ by reference
 
 ```cpp
 	int main()
@@ -90,7 +90,7 @@ categories: cpp11 beginer
 ```
 
 
-()  คือ lambda paremeters
+**()**  คือ lambda paremeters
 
 ถ้าไม่มีพารามิเตอร์นั้น จะใส่วงเล็บหรือใม่ก็ได้
 
