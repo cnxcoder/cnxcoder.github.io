@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lambda in C++ 11"
-date:   2016-17-03 11:00:00 +0700
+date:   2016-02-17 11:00:00 +0700
 categories: cpp11 beginer
 ---
 
